@@ -25,16 +25,12 @@ body {
 }
 
 /* Хедер */
-
 .main-nav {
     display: flex;
     align-items: center;
-
 }
 
 .logo {
-
-    
     text-decoration: none;
     font-family: 'Raleway';
     font-weight: 700;
@@ -57,7 +53,6 @@ body {
 /* Навігація хедер */
 .site-nav {
     display: flex;
-
 }
 
 .nav-list, 
@@ -66,11 +61,9 @@ body {
     list-style: none;
     margin-top: 0;
     margin-bottom: 0;
-    padding: 0;
-    
+    padding: 0;   
     
     outline: 2px solid tomato;
-
 }
 
 .nav-list {
@@ -102,7 +95,6 @@ body {
 }
 
 /* Контакти хедер */
-
 .contacts-link {
     color: var(--secondary-text-color);
 }
@@ -238,7 +230,6 @@ body {
     margin-right: 30px;
 
     outline: 2px solid tomato;
-
 }
 
 /* Наша команда */
@@ -257,7 +248,6 @@ body {
     border-radius: 0px 0px 4px 4px;
 
     outline: 2px solid tomato;
-
 }
 
 .team-name {
