@@ -17,7 +17,7 @@ body {
     border-bottom: 1px solid #ECECEC;
 }
 
-.conteiner {
+.container {
     width: 1200px;
     margin: 0 auto;
     padding-left: 15px;
@@ -53,7 +53,7 @@ body {
 /* Навігація хедер */
 .site-nav {
     display: flex;
-}
+} 
 
 .nav-list, 
 .contacts {
@@ -318,6 +318,52 @@ body {
 
     outline: 2px solid tomato;
 }
+
+/* Портфоліо фільтр */
+.portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.portfolio-title {
+    display: none;
+}
+
+.portfolio-filter {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    justify-content: center;
+}
+
+.button-select {
+    padding: 6px 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--prymary-text-color);
+    background: #F5F4FA;
+    border: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+
+    outline: 2px solid tomato;
+}
+
+.button-select:hover,
+.button-select:focus {
+    color: var(--contrast-text-color);
+    background: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-select:not(:last-child) {
+    margin-right: 8px;
+}
+
 
 
 
